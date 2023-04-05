@@ -1,5 +1,4 @@
-# 基於 python3.9 鏡像建立
-# FROM node:8.16.1
+FROM node:8.16.1
 
 # 設置工作目錄
 # WORKDIR /app
@@ -13,7 +12,7 @@
 # CMD ["node", "/src/hello.py"]
 # CMD ["node", "hello.py"]
 
-FROM node:14
+# FROM node:14
 
 WORKDIR /app
 
